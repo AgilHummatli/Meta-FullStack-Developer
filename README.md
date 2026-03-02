@@ -20,7 +20,6 @@ A fully functional table booking web application for the Little Lemon restaurant
 - [Validation & Error Handling](#validation--error-handling)
 - [Git Repository](#git-repository)
 - [Peer Review Checklist](#peer-review-checklist)
-- [Screenshots](#screenshots)
 - [License](#license)
 
 ---
@@ -429,22 +428,6 @@ This project addresses all peer review criteria:
 - [x] Feature descriptions
 
 ---
-
-## 📸 Screenshots
-
-*(Add screenshots here when submitting)*
-
-### Home Page
-![Home Page](./screenshots/home.png)
-
-### Booking Form
-![Booking Form](./screenshots/booking-form.png)
-
-### Confirmation Page
-![Confirmation](./screenshots/confirmation.png)
-
----
-
 ## 🎓 Learning Outcomes
 
 This project demonstrates:
@@ -463,33 +446,3 @@ This project demonstrates:
 ## 📄 License
 
 This project was created as part of the Meta Front-End Developer Professional Certificate program.
-
----
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Acknowledgments
-
-- Meta Front-End Developer Professional Certificate program
-- Little Lemon restaurant (fictional) for the project context
-- Course instructors and peer reviewers
-
----
-
-## 📞 Support
-
-If you have questions or need clarification:
-
-1. Check the [Issues](https://github.com/yourusername/little-lemon-capstone/issues) page
-2. Review course materials on Coursera
-3. Contact via the peer review system
-
----
-
-**Last Updated**: December 2024
