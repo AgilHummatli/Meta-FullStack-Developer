@@ -1,0 +1,93 @@
+/**
+ * Little Lemon Restaurant - Global Styles
+ * Meta Front-End Developer Capstone Project
+ */
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure footer stays at bottom */
+main {
+  flex: 1;
+}
+
+/* Responsive Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Link Hover Effects */
+a {
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Form Elements */
+input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type="submit"]:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header nav ul {
+    gap: 20px !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+}
+
+/* Accessibility */
+*:focus-visible {
+  outline: 2px solid #F4CE14;
+  outline-offset: 2px;
+}
+
+/* Loading and Error States */
+.error-message {
+  color: #EE9972;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: #2EA043;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
